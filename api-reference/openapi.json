@@ -57,7 +57,13 @@
               }
             }
           }
-        }
+        },
+        "x-codeSamples": [
+          {
+            "lang": "js",
+            "source": "getSomePlants().then(plants => console.log(plants));"
+          }
+        ]
       },
       "post": {
         "description": "Creates a new plant in the store",
@@ -93,7 +99,13 @@
               }
             }
           }
-        }
+        },
+        "x-codeSamples": [
+          {
+            "lang": "javascript",
+            "source": "addSomePlant().then(plant => console.log(plant));"
+          }
+        ]
       }
     },
     "/plants/{id}": {
@@ -126,7 +138,13 @@
               }
             }
           }
-        }
+        },
+        "x-codeSamples": [
+          {
+            "lang": "JavaScript",
+            "source": "deletePlant().then(() => console.log('Plant deleted'));"
+          }
+        ]
       }
     }
   },
