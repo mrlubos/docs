@@ -62,6 +62,14 @@
           {
             "lang": "js",
             "source": "getSomePlants().then(plants => console.log(plants));"
+          },
+          {
+            "lang": "JavaScript",
+            "source": "getSomePlants().then(plants => console.log('JS:', plants));"
+          },
+          {
+            "lang": "TypeScript",
+            "source": "getSomePlants().then(plants => console.log('TS:', plants));"
           }
         ]
       },
@@ -142,7 +150,11 @@
         "x-codeSamples": [
           {
             "lang": "JavaScript",
-            "source": "deletePlant().then(() => console.log('Plant deleted'));"
+            "source": "deletePlant().then(() => console.log('JS plant deleted'));"
+          },
+          {
+            "lang": "TypeScript",
+            "source": "deletePlant().then(() => console.log('TS plant deleted'));"
           }
         ]
       }
